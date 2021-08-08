@@ -27,7 +27,10 @@
 
 <p>
   <strong>User:</strong>
-  <%= @item.user_id %>
+  <%= @item.user.email %>
+</p>
+<p>
+<%= image_tag @item.picture %>
 </p>
 
 <%= link_to 'Edit', edit_item_path(@item) %> |
