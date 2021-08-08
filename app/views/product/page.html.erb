@@ -37,21 +37,23 @@
   </div>
 </div>
 <br></br> 
-<br></br> 
-<br></br> 
-<br></br> 
+
 <h2>Shop all:</h2>
 
-<% @items.each do |item|%>
-
-<div class="card" style="width: 18rem;">
-  <%= image_tag item.picture, class: "card-img-top"%>
-  <div class="card-body">
-    <h5 class="card-title"><%= item.name %> </h5>
-    <p class="card-text"><%= item.description %></p>
-    <%= link_to "Show more", item_path(item.id), class:"btn btn-primary"%>
-  </div>
-</div>
-
+<div class="row">
+<% @items.each do |item| %>
+    <div class="col-md-4">
+    <div class="card" style="width: 18rem;">
+        <%= image_tag item.picture, class: "card-img-top"%>
+        <div class="card-body">
+            <h5 class="card-title"><%= item.name %> </h5>
+            <p class="card-text menu-description"><%= item.description %></p>
+            <p class="card-text">$<%= item.price %></p>
+            <%= link_to "Show more", item_path(item.id), class:"btn btn-primary btn-right"%>
+        </div>
+    </div>
+    </div>
 <% end %>
+
+</div>
 

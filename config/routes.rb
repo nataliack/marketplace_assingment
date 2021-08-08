@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'product/page'
   resources :items
   devise_for :users
   root 'home#page'
@@ -8,4 +9,5 @@ Rails.application.routes.draw do
   get "/startselling", to: "startselling#page2"
   get "/shop", to: "shop#page3"
   get "/profile", to: "profile#page4"
+
 end
