@@ -2,11 +2,9 @@
 
 # Marketplace_app
 
-# Link to deployed app
+# Link to deployed app and GitHub repository 
 
 link:
-
-# Link to GitHub repository 
 
 link:
 
@@ -39,10 +37,10 @@ Target audience would be anyone who appreciates comfort and loungewear. It can a
 
 - a user is able to create an account where they are able to use their accounts to buy and sell loungewear
 - users who buy loungewear are able to choose from a wide varitey of different loungewear brands 
-- users who are sellers can vintage loungewear such as sweatshirts and sweat-pants
-- users can also sell loungewear from manufacturers
-- manufacturers can sell in quantity loungewear to sellers or can directly sell to buyers
-- sellers can provide photos of items they're selling
+- users can provide photos of items they're selling
+- users can also list items to sell with full info of products they're selling
+- users go to different categoies of loungewear such as vintage, new, eco-friendly, and hand-made
+- users can edit the items they've listed on the application 
 
 # High-level components
 
@@ -54,10 +52,12 @@ When a user creates their account, they have the option of being either the sell
 
 # Third party services 
 
-Devise
+- Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application.
+- Heroku - this service enables users to deploy Ruby on Rails applications 
+- Bootstrap v4-5 - used bootstrap to style the web app. It is a css framework that assists in developing a responsive and clear app.
+- Stripe - 
 
-
-# Active Record Assiciations
+# Active Record Associations
 
 # Database Relations
 
@@ -86,11 +86,23 @@ Devise
 
 # Wireframes:
 
+Desktop wireframes:
+
 <img width="242" alt="Screen Shot 2021-07-23 at 1 27 15 pm" src="https://user-images.githubusercontent.com/78888930/126734389-eb1c2be2-90e3-47a3-bc49-048d4b496bd2.png">
+
+Moblie wireframes:
+
+<img width="581" alt="mobile_homepage_wireframe" src="https://user-images.githubusercontent.com/78888930/128652161-ab64ba68-c47f-45d7-a87b-5f7874b08cae.png">
+
+<img width="235" alt="mobile_about_wireframe" src="https://user-images.githubusercontent.com/78888930/128652166-c65b7554-4e85-4c8b-abe1-7f63a38b4d26.png">
+
+<img width="327" alt="mobile_startselling_wireframe" src="https://user-images.githubusercontent.com/78888930/128652170-4626fb69-0252-410c-bba9-ad6bd9704aca.png">
+
+<img width="188" alt="mobile_shop_wireframe" src="https://user-images.githubusercontent.com/78888930/128652175-f1da57a6-f42e-4428-98e5-b185d2b597f2.png">
 
 # Task Allocation
 
 Throughout the duration of this propject, Trello was used in order to keep track of progress and make sure as much of the amount of work was completed in detail. 
-
+Link to Trello: https://trello.com/b/fdshCAGr/loungewear-marketplace-app
 <img width="1436" alt="Screen Shot 2021-07-26 at 1 46 16 pm" src="https://user-images.githubusercontent.com/78888930/126930393-a4b4c196-79ac-4644-bf11-d00cdc89d74d.png">
 
