@@ -2,11 +2,9 @@
 
 # Marketplace_app
 
-# Link to deployed app
+# Link to deployed app and GitHub repository 
 
 link:
-
-# Link to GitHub repository 
 
 link:
 
@@ -39,10 +37,10 @@ Target audience would be anyone who appreciates comfort and loungewear. It can a
 
 - a user is able to create an account where they are able to use their accounts to buy and sell loungewear
 - users who buy loungewear are able to choose from a wide varitey of different loungewear brands 
-- users who are sellers can vintage loungewear such as sweatshirts and sweat-pants
-- users can also sell loungewear from manufacturers
-- manufacturers can sell in quantity loungewear to sellers or can directly sell to buyers
-- sellers can provide photos of items they're selling
+- users can provide photos of items they're selling
+- users can also list items to sell with full info of products they're selling
+- users go to different categoies of loungewear such as vintage, new, eco-friendly, and hand-made
+- users can edit the items they've listed on the application 
 
 # High-level components
 
@@ -55,9 +53,10 @@ When a user creates their account, they have the option of being either the sell
 # Third party services 
 
 Devise
+Heroku
 
 
-# Active Record Assiciations
+# Active Record Associations
 
 # Database Relations
 
