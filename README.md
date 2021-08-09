@@ -90,6 +90,6 @@ Heroku
 # Task Allocation
 
 Throughout the duration of this propject, Trello was used in order to keep track of progress and make sure as much of the amount of work was completed in detail. 
-
+Link to Trello: https://trello.com/b/fdshCAGr/loungewear-marketplace-app
 <img width="1436" alt="Screen Shot 2021-07-26 at 1 46 16 pm" src="https://user-images.githubusercontent.com/78888930/126930393-a4b4c196-79ac-4644-bf11-d00cdc89d74d.png">
 
