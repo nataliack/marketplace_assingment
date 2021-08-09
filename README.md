@@ -54,7 +54,8 @@ When a user creates their account, they have the option of being either the sell
 
 - Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application.
 - Heroku - this service enables users to deploy Ruby on Rails applications 
-
+- Bootstrap v4-5 - used bootstrap to style the web app. It is a css framework that assists in developing a responsive and clear app.
+- Stripe - 
 
 # Active Record Associations
 
