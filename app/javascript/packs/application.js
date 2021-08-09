@@ -13,6 +13,7 @@ import "channels"
 // = require popper
 // = require bootstrap
 // = require util.js 
+import "bootstrap"
 
 Rails.start()
 Turbolinks.start()
