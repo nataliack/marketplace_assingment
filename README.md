@@ -35,12 +35,13 @@ Target audience would be anyone who appreciates comfort and loungewear. It can a
 
 # Functionality and features 
 
-- a user is able to create an account where they are able to use their accounts to buy and sell loungewear
+- users are able to create an account where they are able to use their accounts to buy and sell loungewear
 - users who buy loungewear are able to choose from a wide varitey of different loungewear brands 
 - users can provide photos of items they're selling
 - users can also list items to sell with full info of products they're selling
 - users go to different categoies of loungewear such as vintage, new, eco-friendly, and hand-made
-- users can edit the items they've listed on the application 
+- users can edit, add or delete the items they've listed on the application only if the item was posted by them
+- all users have an account/profile page where all their listed items will appear along with their email
 
 # High-level components
 
@@ -59,6 +60,8 @@ When a user creates their account, they have the option of being either the sell
 
 # Active Record Associations
 
+# Database Schema Design
+
 # Database Relations
 
 # Sitemaps
@@ -76,8 +79,6 @@ When a user creates their account, they have the option of being either the sell
 - User 6 - As someone who owns a factory, i would like to be able to connect and sell my loungewear pieces to sellers and buyers.
 - User 7 - As an influencer, I would like to have and sell my loungewear to followers to get paid and the app would also be easy to use.
 - User 8 - as a musician, i would like to sell merch loungewear because that way it would be easier for fans to buy my merch. 
-
-# Database Schema Design
 
 # ERD:
 
