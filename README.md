@@ -4,9 +4,9 @@
 
 # Link to deployed app and GitHub repository 
 
-link:
+link to repo: 
 
-link:
+link to deployed: https://chill-people-society.herokuapp.com/
 
 # Tech Stack 
 - Ruby on Rails for back-end
