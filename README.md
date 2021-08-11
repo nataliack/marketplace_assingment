@@ -4,17 +4,17 @@
 
 # Link to deployed app and GitHub repository 
 
-link to repo: 
+link to repo: https://github.com/nataliack/marketplace_assingment 
 
 link to deployed: https://chill-people-society.herokuapp.com/
 
 # Tech Stack 
 - Ruby on Rails for back-end
-- HTML/css
-- bootstrap 4-5
+- HTML/css/scss for styling
+- bootstrap 4-5 for styling
 - postgresql for databases
 - devise to authenticate
-- 
+- AWS to upload images
 
 # Problem
 
@@ -52,10 +52,10 @@ When a user creates their account, they have the option of being either the sell
 
 # Third party services 
 
-- Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application.
-- Heroku - this service enables users to deploy Ruby on Rails applications 
-- Bootstrap v4-5 - used bootstrap to style the web app. It is a css framework that assists in developing a responsive and clear app.
-- Stripe - 
+- Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application and enhances levels of security in the app.
+- Heroku - this service is a cloud platfrom that supports different programmiing languages. It allows users to deploy their apps to make it more accessible to the public. This enabled me to create a link that takes users to my marketplace web app made with Ruby on Rails(linked above). 
+- Bootstrap v4-5 - Bootstrap is a very useful and free source that helped with styling the web app. It is a css framework that makes apps responsive, mobile-first front-end web development. It contains mainly CSS and JavaScript design templates. This increased futher productivityenabling me to focus more on the backend.
+- AWS - This is a service offered by Amazon, that helps provide on-demand cloud computing platforms and APIs to individuals and companies. Amazon web services were used to enable users to upload images of loungewear they plan to sell. This service also became very useful in allowing me to insert permanent images into the app.  
 
 # Active Record Associations
 
