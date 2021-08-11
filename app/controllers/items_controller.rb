@@ -1,5 +1,6 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: %i[ show edit update destroy ]
+  before_action :set_item, only: %i[ show ]
+  before_action :set_user_item, only: [:edit, :update, :destroy]
 
   # GET /items or /items.json
   def index
@@ -60,6 +61,17 @@ class ItemsController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_item
       @item = Item.find(params[:id])
+    end
+
+    def set_user_item
+      
+      if current_user.items.find_by_id(params[:id])
+        @item = current_user.items.find_by_id(params[:id])
+      else
+        flash[:alert] = "You don't have permission to do that!"
+        redirect_to root_path
+
+      end
     end
 
     # Only allow a list of trusted parameters through.
