@@ -4,15 +4,18 @@
 <p class="card-text">Email: <%= current_user.email %></p>
 
 <p class="card-text">Items that belong to you:</p>
-<% @items.each do |item|%>
 
-<div class="card" style="width: 18rem;">
-  <%= image_tag item.picture, class: "card-img-top"%>
-  <div class="card-body">
-    <h5 class="card-title"><%= item.name %> </h5>
-    <p class="card-text"><%= item.description %></p>
-    <%= link_to "Show more", item_path(item.id), class:"btn btn-primary"%>
-  </div>
+<div>
+    <% @items.each do |item|%>
+
+    <div class="card" style="width: 18rem;">
+    <%= image_tag item.picture, class: "card-img-top"%>
+    <div class="card-body">
+        <h5 class="card-title"><%= item.name %> </h5>
+        <p class="card-text"><%= item.description %></p>
+        <%= link_to "Show more", item_path(item.id), class:"btn btn-primary"%>
+    </div>
+    </div>
+
+    <% end %>
 </div>
-
-<% end %>
