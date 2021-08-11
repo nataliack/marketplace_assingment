@@ -9,5 +9,9 @@ Rails.application.routes.draw do
   get "/startselling", to: "startselling#page2"
   get "/shop", to: "shop#page3"
   get "/profile", to: "profile#page4"
+  get "/vintage", to: "home#vintage"
+  get "/brand_new", to: "home#brand_new"
+  get "/eco_friendly", to: "home#eco_friendly"
+  get "/hand_made", to: "home#hand_made"
 
 end

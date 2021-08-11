@@ -8,7 +8,7 @@
       <div class="card-body">
       <h5 class="card-title">Vintage Brands</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere imperdiet tincidunt.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="/vintage" class="btn btn-primary">Shop Vintage</a>
     </div>
   </div>
   <div class="card">
@@ -16,7 +16,7 @@
     <div class="card-body">
       <h5 class="card-title">New Brands</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere imperdiet tincidunt. Proin varius elit libero, eget aliquet turpis porta quis.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="/brand_new" class="btn btn-primary">Shop Brand new</a>
     </div>
   </div>
   <div class="card">
@@ -24,7 +24,7 @@
     <div class="card-body">
       <h5 class="card-title">Eco-friendly Brands</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere imperdiet tincidunt. Proin varius elit libero, eget aliquet turpis porta quis.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="/eco_friendly" class="btn btn-primary">Shop Eco-friendly</a>
     </div>
   </div>
   <div class="card">
@@ -32,7 +32,7 @@
     <div class="card-body">
       <h5 class="card-title">Hand-made Brands</h5>
       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere imperdiet tincidunt. Proin varius elit libero, eget aliquet turpis porta quis.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <a href="/hand_made" class="btn btn-primary">Shop Hand made</a>
     </div>
   </div>
 </div>
@@ -44,7 +44,8 @@
 <% @items.each do |item| %>
     <div class="col-md-4">
     <div class="card" style="width: 18rem;">
-        <%= image_tag item.picture, class: "card-img-top"%>
+        <%= image_tag item.picture, class: "card-img-top" %>
+        
         <div class="card-body">
             <h5 class="card-title"><%= item.name %> </h5>
             <p class="card-text menu-description"><%= item.description %></p>
@@ -52,7 +53,7 @@
             <%= link_to "Show more", item_path(item.id), class:"btn btn-primary btn-right"%>
         </div>
     </div>
-    </div>
+  </div>
 <% end %>
 
 </div>
