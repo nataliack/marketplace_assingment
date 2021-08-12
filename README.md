@@ -4,17 +4,17 @@
 
 # Link to deployed app and GitHub repository 
 
-link:
+link to repo: https://github.com/nataliack/marketplace_assingment 
 
-link:
+link to deployed: https://chill-people-society.herokuapp.com/
 
 # Tech Stack 
 - Ruby on Rails for back-end
-- HTML/css
-- bootstrap 4-5
+- HTML/css/scss and Javascript for styling
+- bootstrap 4-5 for styling
 - postgresql for databases
 - devise to authenticate
-- 
+- AWS to upload images
 
 # Problem
 
@@ -35,12 +35,13 @@ Target audience would be anyone who appreciates comfort and loungewear. It can a
 
 # Functionality and features 
 
-- a user is able to create an account where they are able to use their accounts to buy and sell loungewear
+- users are able to create an account where they are able to use their accounts to buy and sell loungewear
 - users who buy loungewear are able to choose from a wide varitey of different loungewear brands 
 - users can provide photos of items they're selling
 - users can also list items to sell with full info of products they're selling
 - users go to different categoies of loungewear such as vintage, new, eco-friendly, and hand-made
-- users can edit the items they've listed on the application 
+- users can edit, add or delete the items they've listed on the application only if the item was posted by them
+- all users have an account/profile page where all their listed items will appear along with their email
 
 # High-level components
 
@@ -49,17 +50,21 @@ In this marketplace application, users are able to create an account and have th
 When a user creates their account, they have the option of being either the seller, buyer or manufacturer anytime they want after signing up to the application. An account is made for every user for authentication purposes.
 
 
-
 # Third party services 
 
-- Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application.
-- Heroku - this service enables users to deploy Ruby on Rails applications 
-- Bootstrap v4-5 - used bootstrap to style the web app. It is a css framework that assists in developing a responsive and clear app.
-- Stripe - 
+- Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application and enhances levels of security in the app.
+- Heroku - this service is a cloud platfrom that supports different programmiing languages. It allows users to deploy their apps to make it more accessible to the public. This enabled me to create a link that takes users to my marketplace web app made with Ruby on Rails(linked above). 
+- Bootstrap v4-5 - Bootstrap is a very useful and free source that helped with styling the web app. It is a css framework that makes apps responsive, mobile-first front-end web development. It contains mainly CSS and JavaScript design templates. This increased futher productivityenabling me to focus more on the backend.
+- AWS - This is a service offered by Amazon, that helps provide on-demand cloud computing platforms and APIs to individuals and companies. Amazon web services were used to enable users to upload images of loungewear they plan to sell. This service also became very useful in allowing me to insert permanent images into the app.  
 
 # Active Record Associations
 
-# Database Relations
+# Database Relations and Schema Design
+
+- The database schema design is similar to the ERD diagram that I followed along when making this marketplace app. 
+
+- There are relations between the user and items tables. The user id will affect on what the user can see and can't see. If a user lists an item, the item they listed will have the users id and if it is the same user, then they are able to edit, add and delete the item they listed. However, if a user views an item they didn't post, that means that another user with a different user_id post the item and the user therefore cannot edit the item listed by another user. 
+- There is another database relation between the items table and the categories table. When a user decides to post or list an item, they need to choose one from four different categories in which their item will fit into. this is useful to better organise the items listed in the app. 
 
 # Sitemaps
 
@@ -77,12 +82,13 @@ When a user creates their account, they have the option of being either the sell
 - User 7 - As an influencer, I would like to have and sell my loungewear to followers to get paid and the app would also be easy to use.
 - User 8 - as a musician, i would like to sell merch loungewear because that way it would be easier for fans to buy my merch. 
 
-# Database Schema Design
-
 # ERD:
 
+Version 1 erd:
 <img width="579" alt="Screen Shot 2021-07-27 at 9 59 38 am" src="https://user-images.githubusercontent.com/78888930/127793528-5c13b64f-1c8f-4bd6-8465-a4320152c5a3.png">
 
+Version 2 erd:
+<img width="535" alt="Screen Shot 2021-08-12 at 1 00 57 pm" src="https://user-images.githubusercontent.com/78888930/129131878-3aaff23a-1599-4a38-9847-799b4064ec94.png">
 
 # Wireframes:
 
