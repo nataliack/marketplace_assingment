@@ -15,3 +15,5 @@ Rails.application.routes.draw do
   get "/hand_made", to: "home#hand_made"
 
 end
+
+# above is all the code that determines the routes for the web app. it basically determines which page is linked to each other

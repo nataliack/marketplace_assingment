@@ -18,3 +18,5 @@ class HomeController < ApplicationController
     @hand_made_items = Item.where(:category => "Hand-made")
   end
 end
+
+# above is a class with several functions of the different categories helping it to connect from items page to each individual category page.
