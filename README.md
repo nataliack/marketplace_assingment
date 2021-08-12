@@ -58,6 +58,7 @@ When a user creates their account, they have the option of being either the sell
 - AWS - This is a service offered by Amazon, that helps provide on-demand cloud computing platforms and APIs to individuals and companies. Amazon web services were used to enable users to upload images of loungewear they plan to sell. This service also became very useful in allowing me to insert permanent images into the app.  
 
 # Active Record Associations
+Active Record Associations is a connection between two Active Record models. An example of this in my ruby on rails web app is the connection between users and the items model. Users with user_id will list an item and will have the connection that they created.  
 
 # Database Relations and Schema Design
 
