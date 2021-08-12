@@ -84,8 +84,11 @@ When a user creates their account, they have the option of being either the sell
 
 # ERD:
 
+Version 1 erd:
 <img width="579" alt="Screen Shot 2021-07-27 at 9 59 38 am" src="https://user-images.githubusercontent.com/78888930/127793528-5c13b64f-1c8f-4bd6-8465-a4320152c5a3.png">
 
+Version 2 erd:
+<img width="535" alt="Screen Shot 2021-08-12 at 1 00 57 pm" src="https://user-images.githubusercontent.com/78888930/129131878-3aaff23a-1599-4a38-9847-799b4064ec94.png">
 
 # Wireframes:
 
