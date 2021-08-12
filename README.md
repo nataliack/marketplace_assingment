@@ -10,7 +10,7 @@ link to deployed: https://chill-people-society.herokuapp.com/
 
 # Tech Stack 
 - Ruby on Rails for back-end
-- HTML/css/scss for styling
+- HTML/css/scss and Javascript for styling
 - bootstrap 4-5 for styling
 - postgresql for databases
 - devise to authenticate
@@ -50,7 +50,6 @@ In this marketplace application, users are able to create an account and have th
 When a user creates their account, they have the option of being either the seller, buyer or manufacturer anytime they want after signing up to the application. An account is made for every user for authentication purposes.
 
 
-
 # Third party services 
 
 - Devise - is a popular authentication tool used in the Ruby on Rails framework. It allows users to log in and out of the web application and enhances levels of security in the app.
@@ -60,9 +59,12 @@ When a user creates their account, they have the option of being either the sell
 
 # Active Record Associations
 
-# Database Schema Design
+# Database Relations and Schema Design
 
-# Database Relations
+- The database schema design is similar to the ERD diagram that I followed along when making this marketplace app. 
+
+- There are relations between the user and items tables. The user id will affect on what the user can see and can't see. If a user lists an item, the item they listed will have the users id and if it is the same user, then they are able to edit, add and delete the item they listed. However, if a user views an item they didn't post, that means that another user with a different user_id post the item and the user therefore cannot edit the item listed by another user. 
+- There is another database relation between the items table and the categories table. When a user decides to post or list an item, they need to choose one from four different categories in which their item will fit into. this is useful to better organise the items listed in the app. 
 
 # Sitemaps
 
